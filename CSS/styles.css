@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;/*Color of all text elements*/
+}
+
+p{
+    line-height: 2;/*Gap between the paragraph text.*/
+}
+
+h1{
+    font-size: 5.625rem;
+    margin-top: 50px;
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0px auto;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto 100px auto;
+}
+
+.Container0/*Mountain , clouds container*/{
+    background-color: aliceblue;
+    padding-top: 100px;
+    position: relative;
+}
+
+.top-cloud{
+    position: absolute;
+    top:50px;
+    right: 300px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+}
+
+.intro{
+    width:45%;/*So that our introduction is not an entire single line*/
+    margin:auto;/*After changing width,it was no longer in center so...*/
+}
+
+.middle-container{
+margin: 100px 0;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.imgHtml {
+    width: 25%;
+    float: left;/*So that Image and text are on same line*/
+    margin-right: 30px;/*So that distance between image and text is there*/
+}
+.imgCSS {
+    width: 25%;
+    float: right;/*So that Image and text are on same line*/
+    margin-left: 30px;/*So that distance between image and text is there*/
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.eng{
+    text-decoration:underline;
+}
+
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;/*So that both the images are at center.*/
+    text-align: left;
+}
+
+.btn{
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    color: #f7f7f7;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+a{/*This is for <a> and its contents*/
+    color: #11999E;
+    margin: 10px 20px;
+    font-family: 'Montserrat',sans-serif;
+    text-decoration: none;
+}
+
+a:hover{
+    background: #EAF6F6;
+}
+
+
+.desc{
+    margin: 40px auto 60px;/*TO increase distacne between the text , submit button and above text*/
+}
+.copy{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0 ;
+}
